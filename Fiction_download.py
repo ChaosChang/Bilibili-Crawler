@@ -20,14 +20,7 @@ def wuxian():  # Changed in settings.Just search typo
     """
     f1 = open('test3.txt', 'w', encoding='utf-8')
     # fiction list grab
-    # http://www.txt53.com/html/xuanhuan/list_21_ 370
-    # http://www.txt53.com/html/yanqing/list_58_ 245
-    # http://www.txt53.com/html/wuxiaxianxia/list_29_ 140
-    # http://www.txt53.com/html/dushi/list_35_ 237
-    # http://www.txt53.com/html/wangyoujingji2/list_47_ 65
-    # http://www.txt53.com/html/kehuanxiaoshuo/list_70_ 24
-    # http://www.txt53.com/html/xuanyituili/list_71_ 9
-    # http://www.txt53.com/html/qita/list_45_ 99
+
     for i in range(13, 371):
         url = "http://www.txt53.com/html/xuanhuan/list_21_" + repr(i) + ".html"
         xpath = "/html/body/div[1]/div[5]/div[2]/div[3]/ul"

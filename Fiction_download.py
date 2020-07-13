@@ -16,10 +16,10 @@ driver = webdriver.Chrome(apath)
 
 
 def wuxian():  # Changed in settings.Just search typo
-    # 无限小说网
+    # 
     """
-    f1 = open('玄幻2.txt', 'w', encoding='utf-8')
-    # fiction list grab,无限小说网
+    f1 = open('test3.txt', 'w', encoding='utf-8')
+    # fiction list grab
     # http://www.txt53.com/html/xuanhuan/list_21_ 370
     # http://www.txt53.com/html/yanqing/list_58_ 245
     # http://www.txt53.com/html/wuxiaxianxia/list_29_ 140
@@ -46,15 +46,16 @@ def qidian():
     # 起点
     """
     Still Testing
+    maybe need server hacking
     :return:
     """
 
 
 def biquge():
-    # 笔趣阁爬取
+
     """
-    f1 = open('我的邻家美女老师.txt', 'w', encoding='utf-8')
-    url = "https://www.biquge5200.com/34_34927/"
+    f1 = open('test2.txt', 'w', encoding='utf-8')
+    url = "https://www.biquge5200.com/2_2598/"
     driver.get(url)
     xpath = "//*[@id='list']/dl/dd/a"
     sections = driver.find_elements_by_xpath(xpath)
@@ -76,10 +77,9 @@ def biquge():
 
 
 def newbiquge():
-
-    # 新笔趣阁
-    f1 = open('美女的妖孽保镖.txt', 'w', encoding='utf-8')
-    url = "http://www.feizw.com/Html/10916/Index.html"
+    
+    f1 = open('test1.txt', 'w', encoding='utf-8')
+    url = "" # website already crashed
     # locator = (By.LINK_TEXT, '第2084章 大结局')
     # driver.set_page_load_timeout(5)
     try:
